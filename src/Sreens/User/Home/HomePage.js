@@ -92,7 +92,7 @@ const HomePage = () => {
   const [userCards, setUserCards] = useState([]);
   const [product, setProduct] = useState([]);
   const [tarrifPrice, setTarrifPrice] = useState("")
-
+const[ja,setja] = useState()
 
   const fetchProduct = async () => {
     setIsLoading(true);
